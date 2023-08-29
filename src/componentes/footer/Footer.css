@@ -1,7 +1,8 @@
 footer {
-    width: 100vw;
-    height: 10vh;
-    background-color: #f31ee8;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
 }
 
 .conteudo {

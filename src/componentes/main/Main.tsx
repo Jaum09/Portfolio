@@ -7,7 +7,8 @@ export default function Main(){
     return(
         <main>
             <div className='bem-vindo'>
-                <h1>Olá! Me chamo João Eduardo. Também sou conhecido como Jão ou João Silva.</h1>
+                <h1>Olá! Me chamo João Eduardo. Também sou conhecido como Jão ou 
+                    Jão Marcus.</h1>
                 <p>Estou me formando em Técnico em Informática para Internet, 
                     na escola Instituto Federal Mato Grosso do Sul (IFMS).</p>
 
