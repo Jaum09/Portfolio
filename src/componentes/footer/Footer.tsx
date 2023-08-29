@@ -5,7 +5,6 @@ import img3 from "../../assets/youtube.png"
 
 function Footer(){
     return(
-        <footer>
             <footer>
       <div className='conteudo'>
         <div className='contatos'>
@@ -57,7 +56,6 @@ function Footer(){
         &#169;1959 all rights reserved
       </div>
     </footer>
-        </footer>
     )
 }
 export default Footer
