@@ -5,34 +5,30 @@ footer {
     text-align: center;
 }
 
-.conteudo {
-    background-color: rgb(164, 52, 216);
+.container {
+    background-color: #ffa500;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 3rem 3.5rem;
-}
-  
-.contatos p {
-    text-align: center;
-    padding: 13px;
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    margin: 0;
+    grid-template-columns: repeat(5, 1fr);
 }
 
-.logo {
-    
-    height: 170px;
+.programas {
+    font-size: 20px;
+    margin-top: 20px;
+    grid-column-start: 2;
 }
 
 .footer-link {
     text-decoration: none;
     font-size: 20px;
 }
-  
+
+.lista {
+    align-items: center;
+}
+
 .lista h3 {
-    font-size: 30px;
+    font-size: 20px;
+    margin-top: 20px;
 }
   
 ul {
@@ -45,34 +41,5 @@ ul a {
 }
   
 ul a:hover {
-    color: #ff00f7ff;
-}
-  
-.copyright {
-    display: flex;
-    width: 100%;
-    background-color: #ee6fff;
-    justify-content: center;
-    font-size: 20px;
-    margin: 0;
-}
-  
-.redes-sociais {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-}
-  
-.contatos a {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-}
-  
-.redes-sociais img {
-    height: 30px;
-    width: 30px;
-    padding: 0;
-    margin-left: 10px;
-    margin-left: 10px;
+    color: rgb(0, 37, 250);
 }
