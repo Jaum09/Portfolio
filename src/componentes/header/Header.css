@@ -9,10 +9,16 @@ header {
     align-items: center;
     margin: 0;
     background-color: #ffa500;
-    height: 120px;
+    height: 100px;
+    
 }
 
 .logo {
     max-height: 100px;
     width: 150px;
+}
+
+.Wallpaper {
+    width: 1372px;
+    margin-left: 400px;
 }

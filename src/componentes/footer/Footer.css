@@ -50,3 +50,15 @@ ul a {
 ul a:hover {
     color: rgb(250, 0, 0);
 }
+
+.programas h2 {
+    color: #1a1a9a;
+}
+
+.lista h3 {
+    color: #1a1a9a;
+}
+
+.container a {
+    color: #1a1a9a;
+}

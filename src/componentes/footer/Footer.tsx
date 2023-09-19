@@ -1,7 +1,7 @@
 import '../footer/Footer.css'
-import html from '../../assets/html.png'
-import css from '../../assets/css.png'
-import js from '../../assets/javascript.png'
+import html from '/html.png'
+import css from '/css.png'
+import js from '/javascript.png'
 
 function Footer(){
     return(
