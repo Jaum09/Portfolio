@@ -44,6 +44,7 @@ body {
 
 .pesquisa {
     padding: 20px;
+    margin-top: 100px;
 }
 
 .pesquisa p {
@@ -59,6 +60,7 @@ body {
     column-gap: 25px;
     row-gap: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    ;
 }
 
 .barrapesquisa {
@@ -74,4 +76,11 @@ body {
 
 .barrapesquisa:focus-visible {
     outline: 1px solid rgb(255, 153, 0);
+}
+
+.linha {
+    background-color: #1a1a9a;
+    height: 4px;
+    width: 100%;
+    margin-top: 100px;
 }

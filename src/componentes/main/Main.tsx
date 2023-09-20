@@ -15,33 +15,33 @@ export default function Main(){
     const trampos:TramposType[] = [
         {
             id:1,
-            titulo:"Robótica",
-            descricao:"Foto tirada durante uma atividade da robótica, onde o objetivo era criar um carrinho de arduíno.",
-            imagem:"/Trabalho1.jpg"
-        },
-        {
-            id:2,
             titulo:"HTML",
             descricao:"Possuo um ótimo conhecimento sobre a programação em HTML e já utilizei muito para criar outros projetos.",
             imagem:"/html.png"
         },
         {
+            id:2,
+            titulo:"Robótica",
+            descricao:"Foto tirada durante uma atividade da robótica, onde o objetivo era criar um carrinho de arduíno.",
+            imagem:"/css.png"
+        },
+        {
             id:3,
-            titulo:"O Exorcista do Papa",
-            descricao:"",
-            imagem:"/"
+            titulo:"JavaScript",
+            descricao:"Meu conhecimento sobre JavaScript é simples, porém eu já fiz vários projetos utilizando JavaScript.",
+            imagem:"/javascript.png"
         },
         {
             id:4,
-            titulo:"Velozes & Furiosos 10",
-            descricao:"",
-            imagem:"/"
+            titulo:"Filmora X",
+            descricao:"Filmora é um editor de vídeos que eu usei por muito tempo para editar vídeos, músicas, trabalhos escolares, etc.",
+            imagem:"/Filmora.png"
         },
         {
             id:5,
-            titulo:"Super Mario Bros. O Filme",
-            descricao:"",
-            imagem:"/"
+            titulo:"Robótica",
+            descricao:"Fiz parte da robótica do IFMS por 2 anos, mexendo com lego EV3 e Arduíno.",
+            imagem:"/Robotica.png"
         }
     ]
 
@@ -69,6 +69,8 @@ export default function Main(){
             </div>
             </div>
 
+            <div className='linha'></div>
+            
             <div className="pesquisa">
                 <p>Buscar Trampo</p>
                 <input type='text' 
