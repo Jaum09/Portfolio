@@ -21,8 +21,8 @@ export default function Main(){
         },
         {
             id:2,
-            titulo:"Robótica",
-            descricao:"Foto tirada durante uma atividade da robótica, onde o objetivo era criar um carrinho de arduíno.",
+            titulo:"CSS",
+            descricao:"Possuo um ótimo conhecimento sobre programação e como estilizar em CSS e já utilizei muito para criar outros projetos.",
             imagem:"/css.png"
         },
         {
