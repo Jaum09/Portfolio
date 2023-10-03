@@ -7,7 +7,7 @@ footer {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .programas {
@@ -25,24 +25,6 @@ footer {
     width: 100px;
 }
 
-.footer-link {
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.lista {
-    align-items: center;
-}
-
-.lista h3 {
-    font-size: 20px;
-    margin-top: 20px;
-}
-
-.lista a {
-    font-size: 15px;
-}
-  
 .contato {
     list-style: none;
 }
@@ -66,4 +48,8 @@ footer {
 
 .container a {
     color: #1a1a9a;
+}
+
+.contato {
+    list-style: none;
 }

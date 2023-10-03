@@ -20,7 +20,7 @@ function Footer(){
         <nav>
           <ul className='contato'>
             <h2>Entre em contato</h2>
-            <li><Link to="/">Nos mande uma mensagem</Link></li>
+            <li><Link to="/contato" className='contato'>Nos mande uma mensagem</Link></li>
           </ul>
         </nav>
       </div>

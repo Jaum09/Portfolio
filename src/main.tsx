@@ -3,6 +3,7 @@ import './main.css'
 import Header from './componentes/header/Header.tsx'
 import Main from './componentes/main/Main.tsx'
 import Footer from './componentes/footer/Footer.tsx'
+import Contato from './componentes/Contato/Contato.tsx'
 import * as ReactDOM from "react-dom/client";
 import {
   createBrowserRouter,
@@ -41,7 +42,7 @@ const router = createBrowserRouter([
     element: 
     <>
     <Header/>
-    <div className='content-main'>Contato pra falar com o mano d'chavas</div>
+    <Contato/>
     <Footer/>
     </>,
   },
