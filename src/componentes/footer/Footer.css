@@ -2,10 +2,10 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+    background-color: #ffa500;
 }
 
 .container {
-    background-color: #ffa500;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
@@ -13,7 +13,12 @@ footer {
 .programas {
     font-size: 14px;
     margin-top: 20px;
+    margin-right: 72px;
     grid-column-start: 2;
+}
+
+.contato {
+    margin-top: 50px;
 }
 
 .programas img {
@@ -38,16 +43,16 @@ footer {
     font-size: 15px;
 }
   
-ul {
+.contato {
     list-style: none;
 }
   
-ul a {
+.contato a {
     color: white;
     margin-top: 30px;
 }
   
-ul a:hover {
+.contato a:hover {
     color: rgb(250, 0, 0);
 }
 
