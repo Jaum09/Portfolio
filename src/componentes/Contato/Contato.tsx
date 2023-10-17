@@ -1,35 +1,33 @@
 import './Contato.css'
+import React, {useState} from "react"
 
-function Contato(){
+export default function Contato(){
+    const [texto, setTexto] = useState("");
+    function change_txt(e: React.ChangeEvent<HTMLInputElement>){
+        setTexto(e.target.value)
+    }
     return(
         <main className='contato'>
         <section>
-            <div>
-                <h1>Mande-nos uma mensagem</h1>
-                <p>Insira suas informações</p>
-            </div>
+                <h1 className='mandaMensagem'>Mande-nos uma mensagem</h1>
+                <p className='insiraInfo'>Insira suas informações</p>
 
-            <form>
-                <fieldset>
-                    <div>
-                        <label>Nome</label>
-                        <input type='text' name='nome' id='nome'></input>
-                    </div>
-
-                    <div>
-                        <label>Sobrenome</label>
-                        <input type='text' name='sobrenome' id='sobrenome'></input>
-                    </div>
-                </fieldset>
-
-                <div>
-                    <label>Email</label>
-                    <input type='email' name='email' id='email'></input>
+            <form action="" method="post" className='escrevaMensagem'>
+                <div className='Nome'>
+                    <input type='text' name='nome' placeholder='nome' className='caixaNome' onChange={change_txt}></input>
                 </div>
 
-                <div>
-                    <label>Escolaridade</label>
-                    <select id='escolaridade'>
+                <div className='Sobrenome'>
+                    <input type='text' name='sobrenome' placeholder='sobrenome' className='caixaSobrenome' onChange={change_txt}></input>
+                </div>
+
+                <div className='Email'>
+                    <input type='email' name='email' placeholder='email' className='caixaEmail' onChange={change_txt}></input>
+                </div>
+
+                <div className='Escolaridade'>
+                    <label>Escolaridade </label>
+                    <select className='escolaridade'>
                         <option selected disabled value="">Escolha</option>
                         <option>Fundamental</option>
                         <option>Médio</option>
@@ -41,21 +39,19 @@ function Contato(){
                     </select>
                 </div>
 
-                <fieldset>
-                    <div>
-                        <label>Selecione o meio de programação que utiliza:</label>
-                        <input type='checkbox' id='tecnologia1' name='tecnologia1' value='HTML'></input>
-                        <label className='tecnologica1'>HTML</label>
-                        <input type='checkbox' id='tecnologia2' name='tecnologia2' value='CSS'></input>
-                        <label className='tecnologica2'>CSS</label>
-                        <input type='checkbox' id='tecnologia1' name='tecnologia1' value='HTML'></input>
-                        <label className='tecnologica1'>JavaScript</label>
-                    </div>
-                </fieldset>
-            </form>
-        </section>
+                <div className='Programação'>
+                    <label>Selecione o meio de programação que utiliza: </label>
+                    <input type='checkbox' name='tecnologia1' value='HTML'></input>
+                    <label className='tecnologica1'>HTML </label>
+                    <input type='checkbox' name='tecnologia2' value='CSS'></input>
+                    <label className='tecnologica2'>CSS </label>
+                    <input type='checkbox' name='tecnologia1' value='HTML'></input>
+                    <label className='tecnologica1'>JavaScript</label>
+                </div>
+
+                <button type='submit'>Enviar</button>
+                </form>
+            </section>
         </main>
     )
 }
-
-export default Contato
