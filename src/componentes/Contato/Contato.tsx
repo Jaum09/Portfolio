@@ -2,27 +2,39 @@ import './Contato.css'
 import React, {useState} from "react"
 
 export default function Contato(){
-    const [texto, setTexto] = useState("");
-    function change_txt(e: React.ChangeEvent<HTMLInputElement>){
-        setTexto(e.target.value)
+    const [nome, setNome] = useState("");
+    function change_nome(e: React.ChangeEvent<HTMLInputElement>){
+        setNome(e.target.value)
+    }
+    const [sobrenome, setSobrenome] = useState("");
+    function change_sobrenome(e: React.ChangeEvent<HTMLInputElement>){
+        setSobrenome(e.target.value)
+    }
+    const [email, setEmail] = useState("");
+    function change_email(e: React.ChangeEvent<HTMLInputElement>){
+        setEmail(e.target.value)
     }
     return(
         <main className='contato'>
         <section>
+            <div className='quadrado'>
                 <h1 className='mandaMensagem'>Mande-nos uma mensagem</h1>
                 <p className='insiraInfo'>Insira suas informações</p>
 
             <form action="" method="post" className='escrevaMensagem'>
                 <div className='Nome'>
-                    <input type='text' name='nome' placeholder='nome' className='caixaNome' onChange={change_txt}></input>
+                    <p>Insira seu nome: {nome}</p>
+                    <input type='text' name='nome' placeholder='nome' className='caixaNome' onChange={change_nome}></input>
                 </div>
 
                 <div className='Sobrenome'>
-                    <input type='text' name='sobrenome' placeholder='sobrenome' className='caixaSobrenome' onChange={change_txt}></input>
+                    <p>Seu sobrenome: {sobrenome}</p>
+                    <input type='text' name='sobrenome' placeholder='sobrenome' className='caixaSobrenome' onChange={change_sobrenome}></input>
                 </div>
 
                 <div className='Email'>
-                    <input type='email' name='email' placeholder='email' className='caixaEmail' onChange={change_txt}></input>
+                    <p>Seu email: {email}</p>
+                    <input type='email' name='email' placeholder='email' className='caixaEmail' onChange={change_email}></input>
                 </div>
 
                 <div className='Escolaridade'>
@@ -51,6 +63,7 @@ export default function Contato(){
 
                 <button type='submit'>Enviar</button>
                 </form>
+                </div>
             </section>
         </main>
     )

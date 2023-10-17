@@ -17,15 +17,16 @@ footer {
     grid-column-start: 2;
 }
 
-.contato {
-    margin-top: 50px;
-}
-
 .programas img {
     width: 100px;
 }
 
+.programas h2 {
+    color: #1a1a9a;
+}
+
 .contato {
+    margin-top: 50px;
     list-style: none;
 }
   
@@ -38,18 +39,10 @@ footer {
     color: rgb(250, 0, 0);
 }
 
-.programas h2 {
-    color: #1a1a9a;
-}
-
 .lista h3 {
     color: #1a1a9a;
 }
 
 .container a {
     color: #1a1a9a;
-}
-
-.contato {
-    list-style: none;
 }
