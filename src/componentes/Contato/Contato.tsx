@@ -61,7 +61,7 @@ export default function Contato(){
                     <label className='tecnologica1'>JavaScript</label>
                 </div>
 
-                <button type='submit'>Enviar</button>
+                <button type='submit' className='botao'>Enviar</button>
                 </form>
                 </div>
             </section>
